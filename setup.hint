@@ -1,0 +1,11 @@
+category: Python
+requires: python python-dbus python-gobject2 python-gtk2
+sdesc: "Python Xesam search spec implementation"
+ldesc: "This software package provides Python packages to interface with 
+Xesam compliant services as well as a command line tool to use directly.
+
+It also features a framework for easily implementing xesam compliant
+servers via the xesam.server package. There are two examples bundled
+with this distribution. Namely demo/xesam-yahoo-service and
+demo/xesam-dummy-service. Both include a small header describing
+their usage."

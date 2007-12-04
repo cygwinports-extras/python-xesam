@@ -1,0 +1,95 @@
+python-xesam
+------------------------------------------
+This software package provides Python packages to interface with Xesam
+compliant services as well as a command line tool to use directly.
+
+It also features a framework for easily implementing xesam compliant
+servers via the xesam.server package. There are two examples bundled
+with this distribution. Namely demo/xesam-yahoo-service and
+demo/xesam-dummy-service. Both include a small header describing
+their usage.
+
+Runtime requirements:
+  python-2.5.1-3
+  python-dbus-0.82.3-1
+  python-gobject2-2.14.0-1
+  python-gtk2-2.12.0-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.3.7-1
+  python-2.5.1-3
+
+Canonical website:
+  http://xesam.org/people/kamstrup/xesam-tools/
+
+Canonical download:
+  http://xesam.org/people/kamstrup/xesam-tools/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-xesam-0.6.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-xesam-0.6.0-X.cygport all
+
+This will create:
+  /usr/src/python-xesam-0.6.0-X-src.tar.bz2
+  /usr/src/python-xesam-0.6.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/xesam-tool
+  /usr/lib/python2.5/site-packages/xesam/__init__.py
+  /usr/lib/python2.5/site-packages/xesam/__init__.pyc
+  /usr/lib/python2.5/site-packages/xesam/__init__.pyo
+  /usr/lib/python2.5/site-packages/xesam/client.py
+  /usr/lib/python2.5/site-packages/xesam/client.pyc
+  /usr/lib/python2.5/site-packages/xesam/client.pyo
+  /usr/lib/python2.5/site-packages/xesam/dummy.py
+  /usr/lib/python2.5/site-packages/xesam/dummy.pyc
+  /usr/lib/python2.5/site-packages/xesam/dummy.pyo
+  /usr/lib/python2.5/site-packages/xesam/ontology/__init__.py
+  /usr/lib/python2.5/site-packages/xesam/ontology/__init__.pyc
+  /usr/lib/python2.5/site-packages/xesam/ontology/__init__.pyo
+  /usr/lib/python2.5/site-packages/xesam/ontology/gtkonto.py
+  /usr/lib/python2.5/site-packages/xesam/ontology/gtkonto.pyc
+  /usr/lib/python2.5/site-packages/xesam/ontology/gtkonto.pyo
+  /usr/lib/python2.5/site-packages/xesam/ontology/rdf.py
+  /usr/lib/python2.5/site-packages/xesam/ontology/rdf.pyc
+  /usr/lib/python2.5/site-packages/xesam/ontology/rdf.pyo
+  /usr/lib/python2.5/site-packages/xesam/ontology/strigi.py
+  /usr/lib/python2.5/site-packages/xesam/ontology/strigi.pyc
+  /usr/lib/python2.5/site-packages/xesam/ontology/strigi.pyo
+  /usr/lib/python2.5/site-packages/xesam/query.py
+  /usr/lib/python2.5/site-packages/xesam/query.pyc
+  /usr/lib/python2.5/site-packages/xesam/query.pyo
+  /usr/lib/python2.5/site-packages/xesam/server.py
+  /usr/lib/python2.5/site-packages/xesam/server.pyc
+  /usr/lib/python2.5/site-packages/xesam/server.pyo
+  /usr/lib/python2.5/site-packages/xesam/ui/__init__.py
+  /usr/lib/python2.5/site-packages/xesam/ui/__init__.pyc
+  /usr/lib/python2.5/site-packages/xesam/ui/__init__.pyo
+  /usr/lib/python2.5/site-packages/xesam_tools-0.6.0-py2.5.egg-info
+  /usr/share/doc/Cygwin/python-xesam-0.6.0.README
+  /usr/share/doc/python-xesam-0.6.0/AUTHORS
+  /usr/share/doc/python-xesam-0.6.0/COPYING
+  /usr/share/doc/python-xesam-0.6.0/ChangeLog
+  /usr/share/doc/python-xesam-0.6.0/INSTALL
+  /usr/share/doc/python-xesam-0.6.0/README
+  /usr/share/doc/python-xesam-0.6.0/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.6.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

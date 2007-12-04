@@ -1,0 +1,6 @@
+ORIG_PN="xesam-tools"
+inherit distutils
+
+DESCRIPTION="Python Xesam search spec implementation"
+HOMEPAGE="http://xesam.org/people/kamstrup/${ORIG_PN}/"
+SRC_URI="http://xesam.org/people/kamstrup/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
